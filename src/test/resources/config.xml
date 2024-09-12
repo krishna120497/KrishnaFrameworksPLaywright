@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- report theme -->
+		<!-- standard, dark -->
+		<theme>dark</theme>
+
+		<!-- document encoding -->
+		<!-- defaults to UTF-8 -->
+		<encoding>UTF-8</encoding>
+
+		<!-- protocol for script and stylesheets -->
+		<!-- defaults to https -->
+		<protocol>https</protocol>
+
+		<!-- title of the document -->
+		<documentTitle>VERMEER Cucumber Reports</documentTitle>
+
+		<!-- report name - displayed at top-nav -->
+		<reportName>Automation Test Results</reportName>
+
+		<!-- timestamp format -->
+		<timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+
+		<!-- view report without internet -->
+		<offlineMode>false</offlineMode>
+		<tumbnailForBase64>true</tumbnailForBase64>
+
+		<!-- custom javascript -->
+		<scripts>
+            <![CDATA[
+                $(document).ready(function() {
+                    
+                });
+            ]]>
+		</scripts>
+
+		<!-- custom styles -->
+		<styles>
+            <![CDATA[
+                
+            ]]>
+		</styles>
+	</configuration>
+</extentreports>
